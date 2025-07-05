@@ -6,7 +6,7 @@ import Email from "./components/Email";
 
 function App() {
   return (
-    <Router basename="/project">
+    <Router basename="/news-projct">
       <Routes>
         <Route path="/" element={<MainShit />} />
         <Route path="/success" element={<Success />} />
